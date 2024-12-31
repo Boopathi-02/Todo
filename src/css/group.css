@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+
+.grp_body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.grp_container_header {
+    height: 15vh;
+    width: 100vw;
+    background-color: #dcfd50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grp_header {
+    font-family: "Ysabeau SC", serif;
+    color: black;
+}
+.grp_header>span{
+    font-size: small;
+}
+
+.grp1 {
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grp1>a {
+    text-decoration: none;
+    color: white;
+}
+
+.grp1>a>h6 {
+    font-family: "Ysabeau SC", serif;
+    color: white;
+}
+
+#bottone1 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Ysabeau SC", serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 1rem;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+#bottone1:hover,
+#bottone1:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone1:hover {
+    transform: translateY(-1px);
+}
+
+#bottone1:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+.grp2 {
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grp2_1 {
+    width: 30vw;
+    height: 8vh;
+    background-color: #F0F0F1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Ysabeau SC", serif;
+    margin-bottom: 10px;
+}
+
+.grp2_1>a {
+    text-decoration: none;
+    color: black;
+}
